@@ -1,0 +1,13 @@
+.btns-cont {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.btns-cont > button {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}

@@ -1,19 +1,13 @@
 .main-cont {
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   /* justify-content: center; */
   flex-direction: column;
 }
 
-.btns-cont {
-  display: flex;
-  gap: 15px;
-  margin: 20px 0;
-  align-self: center;
-}
-
-.btns-cont > button {
-  background-color: white;
+.change-mode-btn {
+  background-color: rgb(97, 98, 121);
+  color: white;
   padding: 10px 20px;
   border-radius: 10px;
   border: none;
@@ -63,7 +57,7 @@ p.answer {
   border-right: 3px solid white;
   border-bottom: 3px solid white;
   border-left: 3px solid white;
-  animation: change 0.7s infinite linear;
+  animation: change 0.7s infinite ease-in-out;
   animation-delay: 0s;
   align-self: center;
 }
